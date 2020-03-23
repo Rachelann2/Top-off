@@ -1,0 +1,21 @@
+#form1 {
+    border: rgba(0, 0, 0, 0.253) solid 3px;
+    padding: 30px;
+}
+
+#inputText {
+   height: 20vh;
+   text-align: top;
+}
+
+#font {
+    font-family: 'Fjalla One', sans-serif !important;
+}
+
+Button {
+    background-color: rgb(255, 0, 0) !important;
+    font-family: 'Abril Fatface', cursive;
+    color: whitesmoke !important;
+    text-shadow: 2px 2px 4px #353535;
+    
+}

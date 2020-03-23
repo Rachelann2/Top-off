@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Rachelann2/Top-off/issues"
   },
-  "homepage": "https://github.com/Rachelann2/Top-off#readme"
+  "homepage": "https://github.com/Rachelann2/Top-off#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
 }

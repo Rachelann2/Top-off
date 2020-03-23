@@ -1,0 +1,28 @@
+#btnGo {
+    background-color: rgb(255, 0, 0);
+    font-family: 'Abril Fatface', cursive;
+    color: whitesmoke !important;
+    text-shadow: 2px 2px 4px #353535;
+   
+}
+
+#head {
+    background-color:  #353535a1;
+    text-align: center;
+    
+}
+h5 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+p {
+    font-family: 'Fjalla One', sans-serif !important;
+
+}
+
+#smallCard {
+    width: 30rem !important;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+
+}
