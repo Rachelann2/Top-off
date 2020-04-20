@@ -3,7 +3,6 @@ import Jumbotron from "../components/Jumbotron";
 import Nav from "../components/Nav";
 import { Container, Row, Col } from "../components/Grid";
 import Card from "../components/Card";
-import Button from "../components/Button";
 
 
 function Index() {
