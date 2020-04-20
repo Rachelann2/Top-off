@@ -1,5 +1,5 @@
 #form1 {
-    border: rgba(0, 0, 0, 0.253) solid 3px;
+    border: rgba(0, 0, 0, 0.767) dotted 5px;
     padding: 30px;
 }
 
@@ -9,12 +9,12 @@
 }
 
 #font {
-    font-family: 'Fjalla One', sans-serif !important;
+    font-family:  'Chicle', cursive !important;
 }
 
 Button {
     background-color: rgb(255, 0, 0) !important;
-    font-family: 'Abril Fatface', cursive;
+    font-family:  'Chicle', cursive !important;
     color: whitesmoke !important;
     text-shadow: 2px 2px 4px #353535;
     

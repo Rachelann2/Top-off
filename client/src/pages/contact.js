@@ -10,6 +10,8 @@ function contact() {
             <Nav></Nav>
 
             <Contact></Contact>
+            <br></br>
+            <br></br>
         </div>
     )
 }

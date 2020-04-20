@@ -1,6 +1,6 @@
 #btnGo {
     background-color: rgb(255, 0, 0);
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Chicle', cursive !important;
     color: whitesmoke !important;
     text-shadow: 2px 2px 4px #353535;
    
@@ -12,17 +12,18 @@
     
 }
 h5 {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Chicle', cursive !important;
 }
 
 p {
-    font-family: 'Fjalla One', sans-serif !important;
-
+    font-family: 'Chicle', cursive !important;
+    font-weight: lighter;
+    color: #666565;
 }
 
 #smallCard {
     width: 30rem !important;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Chicle', cursive !important;
     text-align: center;
 
 }

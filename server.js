@@ -1,12 +1,10 @@
 require("dotenv").config();
-var express = require("express");
-var mongoose = require("mongoose");
-
+const express = require("express");
+const mongoose = require("mongoose");
 const routes = require("./routes");
 
-var authMiddleware = require("./auth");
-var PORT = process.env.PORT || 3001;
-var app = express();
+const PORT = process.env.PORT || 3001;
+const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -16,10 +14,9 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.use(express.static("./public"));
-app.use(authMiddleware());
 
 var MONGODB_URI =
-  process.env.MONGODB_URI || "mongodb://localhost/monggoCater";
+  process.env.MONGODB_URI || "mongodb://localhost/mongoFlights";
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
@@ -28,6 +25,6 @@ mongoose.connect(MONGODB_URI, {
 
 app.use(routes);
 
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   console.log("App running on port " + PORT + "!");
 });
